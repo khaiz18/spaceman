@@ -99,6 +99,8 @@ namespace Spaceman
     public Ufo()
     {
       ufos = new string[] {s0, s1, s2, s3, s4, s5};
+            Ufo ufo = new Ufo();
+            Console.WriteLine(ufos[1]);
     }
 
     public void AddPart()
